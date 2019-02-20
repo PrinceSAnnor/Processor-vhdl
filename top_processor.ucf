@@ -1,0 +1,19 @@
+
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "mas_clk" LOC = "G12"; # Bank = 0, Signal name = BTN0
+NET "mas_clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "rst" LOC = "A7";  # Bank = 1, Signal name = BTN3
+NET "dig<7>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "dig<6>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "dig<5>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "dig<4>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "dig<3>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "dig<2>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "dig<1>" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "dig<0>" LOC = "N13"; # Bank = 1, Signal name = DP
+NET "rst" LOC = "A7";  # Bank = 1, Signal name = BTN3
+
+NET "dig3" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "dig2" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "dig1" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "dig0" LOC = "F12"; # Bank = 1, Signal name = AN0

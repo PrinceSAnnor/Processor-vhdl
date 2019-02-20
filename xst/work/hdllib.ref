@@ -1,0 +1,16 @@
+EN decoder_unit NULL D:/Downloads/FinalProject/decoder_unit.vhd sub00/vhpl08 1525701315
+AR decoder_unit behavioral D:/Downloads/FinalProject/decoder_unit.vhd sub00/vhpl09 1525701316
+AR aludisplay behavioral D:/Downloads/FinalProject/ALUdisplay.vhd sub00/vhpl13 1525701320
+PB common common D:/Downloads/FinalProject/common.vhd sub00/vhpl01 1525701308
+EN micropro NULL D:/Downloads/FinalProject/micropro.vhd sub00/vhpl14 1525701321
+EN instructions_rom NULL D:/Downloads/FinalProject/Instructions_ROM.vhd sub00/vhpl10 1525701317
+EN aludisplay NULL D:/Downloads/FinalProject/ALUdisplay.vhd sub00/vhpl12 1525701319
+AR registers behavioral D:/Downloads/FinalProject/Registers.vhd sub00/vhpl03 1525701310
+EN pc NULL D:/Downloads/FinalProject/PC.vhd sub00/vhpl04 1525701311
+PH common NULL D:/Downloads/FinalProject/common.vhd sub00/vhpl00 1525701307
+AR instructions_rom behavioral D:/Downloads/FinalProject/Instructions_ROM.vhd sub00/vhpl11 1525701318
+AR micropro behavioral D:/Downloads/FinalProject/micropro.vhd sub00/vhpl15 1525701322
+AR alu behavioral D:/Downloads/FinalProject/ALU.vhd sub00/vhpl07 1525701314
+AR pc behavioral D:/Downloads/FinalProject/PC.vhd sub00/vhpl05 1525701312
+EN registers NULL D:/Downloads/FinalProject/Registers.vhd sub00/vhpl02 1525701309
+EN alu NULL D:/Downloads/FinalProject/ALU.vhd sub00/vhpl06 1525701313

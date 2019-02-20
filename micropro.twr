@@ -1,0 +1,132 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml micropro.twx micropro.ncd -o micropro.twr micropro.pcf
+-ucf top_processor.ucf
+
+Design file:              micropro.ncd
+Physical constraint file: micropro.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+dig0        |    7.952(R)|clk_BUFGP         |   0.000|
+dig1        |    8.360(R)|clk_BUFGP         |   0.000|
+dig2        |    8.821(R)|clk_BUFGP         |   0.000|
+dig3        |    8.583(R)|clk_BUFGP         |   0.000|
+dig<0>      |   12.536(R)|clk_BUFGP         |   0.000|
+dig<1>      |   11.763(R)|clk_BUFGP         |   0.000|
+dig<2>      |   13.083(R)|clk_BUFGP         |   0.000|
+dig<3>      |   12.429(R)|clk_BUFGP         |   0.000|
+dig<4>      |   17.811(R)|clk_BUFGP         |   0.000|
+dig<5>      |   16.094(R)|clk_BUFGP         |   0.000|
+dig<6>      |   14.103(R)|clk_BUFGP         |   0.000|
+dig<7>      |   17.218(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock mas_clk to Pad
+----------------------+------------+------------------+--------+
+                      | clk (edge) |                  | Clock  |
+Destination           |   to PAD   |Internal Clock(s) | Phase  |
+----------------------+------------+------------------+--------+
+dRegister_data_out<0> |   23.572(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<1> |   22.621(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<2> |   22.871(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<3> |   23.218(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<4> |   22.824(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<5> |   22.783(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<6> |   22.055(R)|mas_clk_BUFGP     |   0.000|
+dRegister_data_out<7> |   22.572(R)|mas_clk_BUFGP     |   0.000|
+dig<0>                |   27.194(R)|mas_clk_BUFGP     |   0.000|
+dig<1>                |   28.344(R)|mas_clk_BUFGP     |   0.000|
+dig<2>                |   27.004(R)|mas_clk_BUFGP     |   0.000|
+dig<3>                |   27.448(R)|mas_clk_BUFGP     |   0.000|
+dig<4>                |   28.616(R)|mas_clk_BUFGP     |   0.000|
+dig<5>                |   28.787(R)|mas_clk_BUFGP     |   0.000|
+dig<6>                |   26.939(R)|mas_clk_BUFGP     |   0.000|
+dig<7>                |   28.210(R)|mas_clk_BUFGP     |   0.000|
+opcode_out<0>         |   14.587(R)|mas_clk_BUFGP     |   0.000|
+opcode_out<1>         |   14.781(R)|mas_clk_BUFGP     |   0.000|
+opcode_out<2>         |   14.821(R)|mas_clk_BUFGP     |   0.000|
+opcode_out<3>         |   15.019(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<0>|   17.141(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<1>|   17.145(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<2>|   17.130(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<3>|   17.159(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<4>|   16.040(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<5>|   16.288(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<6>|   16.938(R)|mas_clk_BUFGP     |   0.000|
+sRegister1_data_out<7>|   16.077(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<0>|   16.741(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<1>|   15.361(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<2>|   14.504(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<3>|   16.434(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<4>|   15.407(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<5>|   15.753(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<6>|   15.030(R)|mas_clk_BUFGP     |   0.000|
+sRegister2_data_out<7>|   15.133(R)|mas_clk_BUFGP     |   0.000|
+----------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.293|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mas_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mas_clk        |   15.658|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon May 07 17:55:36 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 213 MB
+
+
+

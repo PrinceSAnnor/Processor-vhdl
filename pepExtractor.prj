@@ -1,0 +1,7 @@
+work	"ALU.vhd"
+work	"Instructions_ROM.vhd"
+work	"PC.vhd"
+work	"Registers.vhd"
+work	"common.vhd"
+work	"decoder_unit.vhd"
+work	"micropro.vhd"
